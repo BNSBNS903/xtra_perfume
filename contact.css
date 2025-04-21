@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+.container{
+    background-color:rgb(239, 239, 239);
+    height: 400px;
+    margin-left: 29px;
+    border-radius: 50px;
+}
+.nav{
+    background-color:white; 
+   height: 110px;
+   width: 70%;
+   border-radius: 0 50px 50px 0;
+   top: 0;
+   }
+   .logo{
+    width: 100px;
+    height: 110px;
+    float: left;
+    /*border-radius: 50px;*/
+    
+}
+.XTRA{
+    float: left;
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    display: flex;
+    list-style-type: none;
+ 
+    left: auto;
+}
+a{
+    text-decoration: none;
+    color:goldenrod;
+    font-size: 25px;
+    font-weight: bold;
+   /* padding: 10px;*/
+    
+}
+li{
+    margin-top: 22px;
+}
+.yak{
+    color: goldenrod;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: goldenrod;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    text-decoration-thickness: 2px;
+    transition: text-decoration-color 0.3s ease-in-out, text-decoration-thickness 0.3s ease-in-out;
+}
+.dropbtn:hover{
+text-decoration: none;
+}
+
+.dropbtn::after {
+    content: "⌄";
+    margin-left: 5px;
+    font-size: 1em;
+    color: goldenrod;
+    position: relative;
+    top: -7px;
+    text-decoration: none;
+}
+.hh{
+    margin-top: 250px;
+    margin-left: 30px;
+    font-size: 40px;
+    
+}
+.ww{
+    margin-top: 500px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: goldenrod;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
